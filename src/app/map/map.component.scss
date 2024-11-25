@@ -1,0 +1,17 @@
+#map-container {
+    width: 100%; /* Ensures the container takes full width of its parent */
+    max-width: 900px; /* Restricts the container width to a max value */
+    height: 400px; /* Defines a fixed height for the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 10px; /* Optional padding inside the container */
+    border: 2px solid #ddd; /* Optional border to highlight the container */
+    border-radius: 12px; /* Rounded corners for a smooth look */
+    background-color: #f9f9f9; /* Background color for the container */
+  }
+  
+  #map {
+    width: 100%; /* Makes the map fill the container's width */
+    height: 100%; /* Makes the map fill the container's height */
+    border-radius: 8px; /* Optional rounding of the map's corners */
+    background-color: #e0e0e0; /* Optional background color for the map (e.g., if the map is not yet loaded) */
+  }

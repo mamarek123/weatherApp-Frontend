@@ -1,0 +1,52 @@
+#tableContainer {
+    margin: 30px auto; /* Adds margin around the container */
+    max-width: 90%; /* Restricts the width to 90% of the screen */
+    background: linear-gradient(145deg, #6a1b9a, #9c4dcc); /* Deep purple gradient background */
+    border: 2px solid #7b1fa2; /* Darker purple border */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Deeper shadow for a modern touch */
+  }
+  
+  table {
+    width: 100%; /* Ensures the table takes full width of the container */
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #fff; /* White border to contrast with the purple */
+    padding: 12px; /* Adds more space inside cells */
+    text-align: left;
+    font-family: 'Arial', sans-serif; /* Clean modern font */
+    font-size: 14px;
+  }
+  
+  th {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent light background for headers */
+    color: #fff; /* White text color for the header */
+    font-weight: bold;
+  }
+  
+  td {
+    color: #f5f5f5; /* Light text color for the table data */
+  }
+  
+  td img {
+    max-width: 40px; /* Slightly larger icons */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px; /* Round the corners of the icon for a sleeker look */
+  }
+  
+  .summary-section {
+    background-color: #e0f7fa; /* Light cyan background to match table theme */
+    border: 1px solid #00838f; /* Dark cyan border */
+    padding: 15px; /* Some padding */
+    border-radius: 8px; /* Rounded corners */
+    font-family: 'Roboto', sans-serif; /* Font style to match existing theme */
+    color: #004d40; /* Dark cyan text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .summary-section:first-of-type {
+    margin-top: 0; /* Remove top margin for the first section */
+  }

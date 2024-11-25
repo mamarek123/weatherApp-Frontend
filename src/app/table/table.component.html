@@ -1,0 +1,32 @@
+<div id="tableContainer">
+  <table>
+    <thead>
+      <tr>
+        <th>Date:</th>
+          @for (date of forecastData.date; track $index) {
+            <th>{{date}}</th>
+          } 
+      </tr>
+      </thead>
+     <tbody>
+      <tr>
+        <td>Max temp</td>
+          @for (maxTemp of forecastData.temperature_2m_max; track $index) {
+            <td>{{maxTemp}}</td>
+          }
+      </tr>
+      <tr>
+        <td>Min temp</td>
+          @for (minTemp of forecastData.temperature_2m_min; track $index) {
+            <td>{{minTemp}}</td>
+          }
+      </tr>
+      <tr>
+      </tr>
+    </tbody>
+  </table>
+  <div class="summary-section"> Total generatedEnergy this week equals to: {{forecastData.generated_energy}}kJ</div>
+  <div class="summary-section"> Summary of the week: This will be {{summaryData.precipitation}}
+  where on average we will have: {{summaryData.average_sun_exposition_time}} hours of sunshine </div>
+  <div class="summary-section">Max temperature:{{summaryData.max_temperature}}°C Minimum temperature:{{summaryData.min_temperature}}°C And average atmospheric pressure:{{summaryData.average_pressure}}hPa</div>
+  
