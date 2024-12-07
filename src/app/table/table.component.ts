@@ -19,13 +19,13 @@ export class TableComponent {
   constructor(private weatherEnergyService: WeatherEnergyService) {
     this.forecastData = {
       "date": [
-          "2024-11-25",
-          "2024-11-26",
-          "2024-11-27",
-          "2024-11-28",
-          "2024-11-29",
-          "2024-11-30",
-          "2024-12-01"
+          "loading data...",
+          "loading data...",
+          "loading data...",
+          "loading data...",
+          "loading data...",
+          "loading data...",
+          "loading data..."
       ],
       "weather_code": [
           NaN ,
